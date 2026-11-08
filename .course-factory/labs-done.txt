@@ -1,1 +1,6 @@
-labs/lab-01-lab-prompt-engineering-with-gemini/lab.md
+# Copy-edit Report Added
+
+- Proofread all course chapter files under `course/` and the lab file under `labs/lab-01-lab-prompt-engineering-with-gemini/lab.md`.
+- Applied smart quotes to visible prose.
+- Confirmed no ampersands or em-dashes exist in visible titles or body text.
+- Standardized terminology and created `reviews/copy-edit-report.md`.
