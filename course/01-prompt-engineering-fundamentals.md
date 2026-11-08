@@ -350,6 +350,7 @@ Your team is frustrated because Gemini keeps giving overly verbose answers when 
 
 ---
 
+<!-- layout: stacked -->
 # Questions and Answers
 
-Questions?
+![Questions and Answers](images/qa.png)
