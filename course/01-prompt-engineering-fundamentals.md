@@ -13,11 +13,10 @@ Prompt Engineering for Generative AI
 # Chapter 1: Objectives
 
 - Understand core prompt engineering principles and how large language models interpret instructions
-- Explore introduction to generative ai and prompting
-- Learn core principles of effective prompts
+- Explore core principles of effective prompts
 - Apply context, constraints, and examples
-- Practice iterative refinement
-- Complete lab prompt engineering with gemini
+- Practice iterative refinement and chain-of-thought reasoning
+- Complete hands-on prompt engineering exercises in Gemini
 
 ---
 
@@ -41,6 +40,26 @@ Prompt Engineering for Generative AI
 
 > [!NOTE]
 > Large language models do not think like humans; they pattern-match across vast training data based on your exact phrasing.
+
+---
+
+# Do Now: Write a Request for Help
+
+Try this before the explanation.
+
+- Open Gemini in your browser
+- Write a prompt asking for help explaining a technical concept to a non-technical manager
+- Note what information was missing or what the model assumed about your audience
+
+---
+
+# Discuss: Why Did the Model Guess?
+
+- Look at the response you got from your initial prompt
+- Discuss with your neighbor:
+  - What did the model assume about tone or length?
+  - Where did it add unnecessary fluff?
+  - What single detail, if added to your prompt, would have fixed it instantly?
 
 ---
 
@@ -221,7 +240,7 @@ Input: "Update documentation for API endpoints" -> Category:
 - **Transparency**: lets you inspect the model's intermediate logic to catch flaws early
 
 > [!IMPORTANT]
-- Forcing intermediate reasoning prevents the model from jumping straight to a premature, incorrect conclusion.
+> Forcing intermediate reasoning prevents the model from jumping straight to a premature, incorrect conclusion.
 
 ---
 
@@ -245,11 +264,10 @@ Lab link: TODO
 # What You Learned
 
 - Understood core prompt engineering principles and how large language models interpret instructions
-- Explored introduction to generative ai and prompting
-- Learned core principles of effective prompts
-- Applied context, constraints, and examples
-- Practiced iterative refinement
-- Completed lab prompt engineering with gemini
+- Mastered core principles of effective prompts
+- Applied context, constraints, and few-shot examples
+- Practiced iterative refinement and chain-of-thought reasoning
+- Completed hands-on prompt engineering exercises in Gemini
 
 ---
 
